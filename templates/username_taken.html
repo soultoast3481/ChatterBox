@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Username Issue</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f0ff; /* Light blue background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 400px;
+            text-align: center;
+            border: 1px solid #d1e0e0; /* Light border for subtle separation */
+        }
+        h1 {
+            color: #004085; /* Darker blue for heading */
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        p {
+            color: #333333;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #007bff; /* Blue background for button */
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Username Issue</h1>
+        <p>{{ message if message else 'Username already taken. Please choose another.' }}</p>
+        <a href="{{ url_for('username_password') }}">Go Back</a>
+    </div>
+</body>
+</html>
