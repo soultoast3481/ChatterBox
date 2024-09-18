@@ -1,63 +1,72 @@
 # ChatterBox
 
-**WARNING**: Before hosting ChatterBox on your school's Wi-Fi, please ask for permission from your admin!
+**WARNING**: Before hosting ChatterBox on your school's Wi-Fi, please get permission from your admin!
+
+---
 
 ## Supported Devices
-ChatterBox must be run on a non-Chromebook device. It's been tested on:
+ChatterBox runs on non-Chromebook devices. It’s been tested on:
 - **Windows**
 - **Samsung (via Termux)**
 
-It *should* work on Mac, Linux, and other platforms, but we haven’t tested them yet!
+It *should* also work on macOS, Linux, and other platforms, though they haven't been tested yet.
+
+---
 
 ## Installation Instructions
 
-### Step 1: Install Git and Python
-You'll need Git and Python installed on your device.
-- Download Git: [https://git-scm.com/downloads](https://git-scm.com/downloads)
-- Download Python: [https://www.python.org](https://www.python.org)
+### Desktop Installation (Windows/Mac/Linux)
 
-### Step 2: Clone the Repository
-Open up your Command Line and run the following commands: git clone https://github.com/soultoast3481/ChatterBox.git 
+#### Step 1: Install Git and Python
+You’ll need Git and Python installed on your device.
+- [Download Git](https://git-scm.com/downloads)
+- [Download Python](https://www.python.org)
 
-then cd ChatterBox
+#### Step 2: Clone the Repository
+1. Open your Command Line or Terminal.
+2. Run the following command to clone the repository: git clone https://github.com/soultoast3481/ChatterBox.git
+3. Navigate into the ChatterBox directory:
 
-### Step 3: Run the App
-In the Command Line, start the app by typing: Python app.py
-
-INSTALLATION ON ANDROID
-
-begin by installing termux from the play store
-
-then open the app and update it apt update && apt upgrade
-
-then install git with apt install git openssh
-
-next setup storage with termux-setup-storage
-click allow
-
-We need to create the key-pair of SSH using the command:
-
-ssh-keygen -t rsa -C "YOUR_EMAIL_ADDRESS"
+#### Step 3: Run the App
+Start the app by running the following command: python app.py
 
 
-Log into your GitHub account using the command:
+---
 
-ssh -T git@github.com
-After successful authentication, you can start using Git on your Android device. You can create, pull, push the repositories. This is the easy way to use Git on your smartphone and it is a safe way because the Termux app is installed using Google play store.
+### Android Installation (via Termux)
 
-after installation of git install Python
+#### Step 1: Install Termux
+1. Download **Termux** from the [Google Play Store](https://play.google.com/store/apps/details?id=com.termux).
+2. Open Termux and update it: apt update && apt upgrade
 
-type in pkg upgrade
-When prompted for Y/N confirmations, tap Enter to go with the defaults
 
-Then, enter the following command to install Python:
+#### Step 2: Install Git and Set Up Storage
+1. Install Git and OpenSSH: apt install git openssh
+2. Set up storage:
+- You’ll need to grant storage permissions when prompted.
 
-pkg install python
+#### Step 3: Set Up SSH Key (Optional but Recommended)
+1. Create an SSH key pair: ssh-keygen -t rsa -C "YOUR_EMAIL_ADDRESS"
+2. Log into your GitHub account: ssh -T git@github.com
 
-then continue the steps from the default installation instructions
+After successful authentication, you’re ready to use Git on your Android device!
+
+#### Step 4: Install Python
+1. Upgrade Termux packages: pkg upgrade
+- Confirm prompts by pressing Enter.
+2. Install Python: pkg install python
+
+
+#### Step 5: Clone the Repository and Run the App
+1. Clone the repository: git clone https://github.com/soultoast3481/ChatterBox.git
+2. Navigate into the ChatterBox directory:
+3. Start the app: python app.py
+
+---
 
 ## Notes
 
-- This app may be a bit rough around the edges, but it 100% works!
-- Built by a 16-year-old—manage your expectations accordingly.
-- If these steps are unclear, and you’re still lost, maybe computers aren’t your thing... just sayin’.
+- This app may be a bit rough around the edges, but it works like a charm!
+- Built by a 16-year-old—so manage your expectations accordingly.
+- If you’re still lost after following these steps, maybe computers aren’t your thing… just sayin’.
+
