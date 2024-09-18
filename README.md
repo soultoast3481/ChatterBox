@@ -17,7 +17,9 @@ You'll need Git and Python installed on your device.
 - Download Python: [https://www.python.org](https://www.python.org)
 
 ### Step 2: Clone the Repository
-Open up your Command Line and run the following commands: git clone https://github.com/soultoast3481/ChatterBox.git cd ChatterBox
+Open up your Command Line and run the following commands: git clone https://github.com/soultoast3481/ChatterBox.git 
+
+then cd ChatterBox
 
 ### Step 3: Run the App
 In the Command Line, start the app by typing: Python app.py
