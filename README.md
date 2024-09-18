@@ -1,17 +1,29 @@
 # ChatterBox
-WARINING - PLEASE ASK ADMIN AT YOUR SCHOOL IF YOU COULD HOST THIS ON THIER WIFI
 
-Functionality - ChatterBox needs to be ran on a non-chrombook device, the following devices it can run on are Macs, Windows, prob Linux, and Samsungs via termux.
+**WARNING**: Before hosting ChatterBox on your school's Wi-Fi, please ask for permission from your admin!
 
-Tested Devices - Windows/Samsung but im betting it works on all other platforms
+## Supported Devices
+ChatterBox must be run on a non-Chromebook device. It's been tested on:
+- **Windows**
+- **Samsung (via Termux)**
 
-Instalation - 
+It *should* work on Mac, Linux, and other platforms, but we haven’t tested them yet!
 
-STEP 1: your going to want git (https://git-scm.com/downloads) and python (https://www.python.org) installed on your device
+## Installation Instructions
 
-STEP 2: You will open up Command Line and Clone https://github.com/soultoast3481/ChatterBox.git then cd into your repository
+### Step 1: Install Git and Python
+You'll need Git and Python installed on your device.
+- Download Git: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+- Download Python: [https://www.python.org](https://www.python.org)
 
-Step 3: type in python app.py and the app will start up
+### Step 2: Clone the Repository
+Open up your Command Line and run the following commands: git clone https://github.com/soultoast3481/ChatterBox.git cd ChatterBox
 
-WARNING THIS APP SUCKS ASS BUT IT WORKS. IT WAS MADE BY A 16 YEAR OLD SO EXPECT THAT MUCH. 
- also if you cant figure out how to start this thing up your under 12 and should give up pronto, these steps couldent be more clear unless you know absolutly nothing about computers.
+### Step 3: Run the App
+In the Command Line, start the app by typing: Python app.py
+
+## Notes
+
+- This app may be a bit rough around the edges, but it 100% works!
+- Built by a 16-year-old—manage your expectations accordingly.
+- If these steps are unclear, and you’re still lost, maybe computers aren’t your thing... just sayin’.
